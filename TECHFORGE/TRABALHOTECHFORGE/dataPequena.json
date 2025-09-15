@@ -1,0 +1,44 @@
+{
+  "roupas": [
+    {
+      "id": 1,
+      "descricao": "Vestido Floral",
+      "estoque": 8,
+      "precoPago": 40,
+      "fornecedorId": 1
+    },
+    {
+      "id": 2,
+      "descricao": "Camiseta Preta",
+      "estoque": 7,
+      "precoPago": 15,
+      "fornecedorId": 455
+    }
+  ],
+  "fornecedores": [
+    {
+      "id": 1,
+      "nome": "Moda Vintage Ltda",
+      "contato": "contato@modavintage.com"
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "João Silva",
+      "email": "joao@email.com"
+    }
+  ],
+  "vendas": [
+    {
+      "id":1,
+      "clienteId":1,
+      "roupasCompradas": [
+        1,
+        2
+      ],
+      "dataHora": "2025-04-22T18:06:43.243Z",
+      "valorVenda": 123
+    }
+  ]
+}

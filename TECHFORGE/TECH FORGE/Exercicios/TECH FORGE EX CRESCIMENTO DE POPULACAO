@@ -1,0 +1,16 @@
+let paisA= 9000000;
+let paisB= 20000000;
+let qtdAnos= 0;
+
+while (paisB>paisA) {
+    paisA=paisA*1.04
+    paisB=paisB*1.0195;
+    qtdAnos++;
+}
+
+console.log("Levou "+qtdAnos+"para o pais A passar a populacao do pais B")
+
+let numeros = [10, 20, 30, 40];  
+numeros.push(50);  
+numeros.shift();  
+console.log(numeros.length);
